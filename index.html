@@ -1,21 +1,21 @@
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://fr.tradingview.com/markets/" rel="noopener" target="_blank"><span class="blue-text">Marchés financiers</span></a> par TradingView</div>
+  <div class="tradingview-widget-copyright"><a href="https://fr.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Actions</span></a> par TradingView</div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
   {
-  "colorTheme": "light",
-  "dateRange": "12M",
+  "colorTheme": "dark",
+  "dateRange": "1M",
   "showChart": true,
   "locale": "fr",
   "largeChartUrl": "",
-  "isTransparent": false,
+  "isTransparent": true,
   "showSymbolLogo": true,
   "width": "400",
   "height": "660",
-  "plotLineColorGrowing": "rgba(33, 150, 243, 1)",
-  "plotLineColorFalling": "rgba(33, 150, 243, 1)",
-  "gridLineColor": "rgba(240, 243, 250, 1)",
+  "plotLineColorGrowing": "rgba(25, 118, 210, 1)",
+  "plotLineColorFalling": "rgba(25, 118, 210, 1)",
+  "gridLineColor": "rgba(42, 46, 57, 1)",
   "scaleFontColor": "rgba(120, 123, 134, 1)",
   "belowLineFillColorGrowing": "rgba(33, 150, 243, 0.12)",
   "belowLineFillColorFalling": "rgba(33, 150, 243, 0.12)",
@@ -47,22 +47,6 @@
         {
           "s": "FOREXCOM:UKXGBP",
           "d": "FTSE 100"
-        },
-        {
-          "s": "NASDAQ:TSLA",
-          "d": "TESLA"
-        },
-        {
-          "s": "TSXV:HIVE",
-          "d": "HIVE - BlockChain"
-        },
-        {
-          "s": "EURONEXT:FDJ",
-          "d": "FDJ"
-        },
-        {
-          "s": "AMEX:GLD",
-          "d": "GOLD"
         }
       ],
       "originalTitle": "Indices"
@@ -70,14 +54,6 @@
     {
       "title": "Matières premières",
       "symbols": [
-        {
-          "s": "CME_MINI:ES1!",
-          "d": "S&P 500"
-        },
-        {
-          "s": "CME:6E1!",
-          "d": "Euro"
-        },
         {
           "s": "COMEX:GC1!",
           "d": "Gold"
@@ -131,29 +107,44 @@
       "title": "Forex",
       "symbols": [
         {
-          "s": "FX:EURUSD"
-        },
-        {
-          "s": "FX:GBPUSD"
-        },
-        {
-          "s": "FX:USDJPY"
-        },
-        {
-          "s": "FX:USDCHF"
-        },
-        {
-          "s": "FX:AUDUSD"
-        },
-        {
-          "s": "FX:USDCAD"
-        },
-        {
           "s": "FX:EURCAD",
           "d": "EURCAD"
+        },
+        {
+          "s": "FX:EURUSD",
+          "d": "EURUSD"
+        },
+        {
+          "s": "FX:USDCAD",
+          "d": "USDCAD"
+        },
+        {
+          "s": "FX:GBPUSD",
+          "d": "GBPUSD"
         }
       ],
       "originalTitle": "Forex"
+    },
+    {
+      "title": "Actions",
+      "symbols": [
+        {
+          "s": "NASDAQ:TSLA",
+          "d": "TESLA"
+        },
+        {
+          "s": "TSXV:HIVE",
+          "d": "Hive - blockchain"
+        },
+        {
+          "s": "EURONEXT:FDJ",
+          "d": "Française des Jeux"
+        },
+        {
+          "s": "NASDAQ:AAPL",
+          "d": "Apple"
+        }
+      ]
     }
   ]
 }
